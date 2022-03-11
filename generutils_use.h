@@ -4,11 +4,8 @@
 /* Author: Nguyen Quang Huy
  * Date: From Jan 2022
  *
- * Each of these utility have a test function
- * which helps showing how to use it
- * 
- * The prototype for general_util_use.h is _general_util_use.h
- * Copy the prototype to your project, and remove '_'
+ * Each of these utility have a test function which helps showing how to use it
+ * Clone and modify this file
  */
 
 /* Define depends on your usage */
@@ -21,8 +18,7 @@
 /* No modification is neccessary belows this line */
 /* -------------------------------------------------- */
 
-/* Include the only needed header,
- * or all of them
+/* Include the only needed header, or all of them
  */
 #if (USE_ALL || USE_RING)
     #include "ring/ring.h"
